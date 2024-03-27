@@ -1,0 +1,34 @@
+create index.html
+    create navbar
+        display name
+        create links
+            about me
+            projects
+            contact
+        create about me section
+            photo or avatar
+            small description
+        create project section
+            link project
+            placeholders
+        create contact links
+            github
+            email
+        create footer
+            copyright 
+
+create style.css
+    navbar styling
+        color
+        hover function
+        alightment
+        links scroll to page sections
+    body styling
+        color pallet
+        flex boxes
+        text alignment
+        add images
+        enlarge image when hovering
+        project image when clicked deploys to project page
+        responsive page for mobile and desktop
+
