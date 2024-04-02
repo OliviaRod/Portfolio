@@ -1,0 +1,85 @@
+li {
+    display: inline;
+    padding: 8px;
+    
+  }
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #7a77b3;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+li a:hover {
+    background-color: #b1b3dd;
+  }
+
+.navlink {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #cdd3ee;
+}
+main {
+    background-color: #7a77b3;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    background-color: #b1b3dd;
+    /* height: 200px; */
+    width: 40%;
+    border: solid;
+}
+
+.project-card img {
+    width: 25vw;
+}
+
+#card1 {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    align-items: center;
+    padding: 5%;
+}
+
+#card1 img {
+    width: 100%;
+}
+
+.contact .about-me {
+    text-align: center;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+
+p {
+    text-align: center;
+}

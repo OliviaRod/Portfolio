@@ -3,23 +3,63 @@
     <title>Portfolio Website</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   </head>
 
   <body>
-    <header class="navbar">
+    <header class="navbar" id="navbar">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="navlink" href="#navbar">Home</a></li>
+        <li><a class="navlink" href="#about-me">About Me</a></li>
+        <li><a class="navlink" href="#projects">Projects</a></li>
+        <li><a class="navlink" href="#contact">Contact</a></li>
       </ul>
     </header>
 
     <main>
-      <section class="About Me">
+      <section class="about-me" id="about-me">
         <h1>About Me</h1>
-        <p></p>
+        <img src="./assets/pictures/avatar.png" class="center" alt="Avatar Picture">
+        <p>Hello there! I'm Olivia Rodriguez, a 25-year-old Web Developer. Currently living in Salt Lake City, Utah, I've always had a fascination for computers. From CDRom games to Club Penguin, to the early days of ToonTown and even Pixie Hallow! Whether it's teaching my younger self math with bugs that sing, to choosing a talent for my little fairy character I have loved being online. As an 18-year-old trying to decide what I want to do with the rest of my life, my love of computers lead me to Computer Science. Then, when being accepted to Neumont College of Computer Science I decided that my passion was set on Web Development. 
+
+        Professionally, I have 3 years of experience in Software Development with a focus on Web Development. After graduating college I worked at a Claire's to be able to pay for rent. It was hard work but also I had a lot of fun moments, being able to bring joy to children with new earrings or stuffed animals. But the pay was not enough and from there I was lucky enough to make friends at a bank and discover that they were hiring. I became a Fincial Wellness Consultant for KeyBank. Currently while still working for KeyBank I decided to further my education with a Web Development Bootcamp Program from the University of Utah.
+
+
+        When I'm not busy with work, you can often find me playing cozy games like Stardew Valley, playing with my adorable dog, or watching lets plays of horror games. I personally love horror but do not love being scared, hence my lack of enthusiasum to play them myself. I have a large array of interests, for example: all forms of art interest me whether it is video games, traditional forms of art like painting and music, or crafting 3d objects out of clay, yarn, resin, or even 3d printing! Anything that someone can create I can find the beauty in it. Which is how Web Development peaked my interest in the first place, outside of video game creation Web Development is one of the only creative forms of coding. Something that can be helpful and beautiful at the same time. Technical yet artistic. The first time I made a simple page out of HTML and CSS I found the beauty in creating a site and knew thats what I wanted to pursue in life.</p>
+      </section>
+
+      <h1 id="projects">My Projects</h1>
+      <section class="projects">
+        <div class="project-card" id="card1">
+          <a href="https://github.com/OliviaRod/Portfolio">
+            <img src="./assets/pictures/project-placeholder.png" alt="Project 1">
+          </a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/pictures/project-placeholder.png" alt="Project 2">
+        </div>
+        <div class="project-card">
+          <img src="./assets/pictures/project-placeholder.png" alt="Project 3">
+        </div>
+        <div class="project-card">
+          <img src="./assets/pictures/project-placeholder.png" alt="Project 4">
+        </div>
+        <div class="project-card">
+          <img src="./assets/pictures/project-placeholder.png" alt="Project 5">
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+        <a href="https://github.com/OliviaRod">
+          <img src="./assets/pictures/github.png" class="logo"></a>
+         <p>GitHub</p>
+        </div>
+        <div>
+          <a href="mailto:olivia.c.rodriguez@outlook.com">
+            <img src="./assets/pictures/envelope.png" class="logo"></a>
+           <p>Email</p>
+        </div>
       </section>
     </main>
     <footer></footer>

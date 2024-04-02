@@ -28,7 +28,7 @@ create style.css
         flex boxes
         text alignment
         add images
-        enlarge image when hovering
+        larger first image
         project image when clicked deploys to project page
         responsive page for mobile and desktop
 
